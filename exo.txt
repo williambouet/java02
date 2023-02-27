@@ -1,0 +1,10 @@
+ réel money ← 12.4; 
+   réel price ← 1.2
+   entier candies ← 0
+   Si money > 0 ET price > 0
+       Tant que (money - price) >= 0
+           candies ← candies + 1
+           money ← money - price
+       Fin Tant que
+   Fin Si
+   afficher candies
